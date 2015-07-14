@@ -1,0 +1,39 @@
+{
+	"name":"brainfactory/cskrollr",
+	"description":"Create easy parralax pages with skrollr",
+	"keywords":["contao","parallax"],
+	"type":"contao-module",
+	"homepage":"http://brainfactory.de",
+	"license":"MIT",
+	"authors":[
+		{
+			"name":"Christian Romeni",
+			"homepage":"http://brainfactory.de",
+			"role":"Developer"
+		}
+	],
+	"support":{
+		// "forum":"http://help.rocksolidthemes.com/discussions",
+		// "issues":"https://github.com/madeyourday/contao-rocksolid-columns/issues",
+		// "source":"https://github.com/madeyourday/contao-rocksolid-columns"
+	},
+	"require":{
+		"php":">=5.3",
+		"contao/core":">=3,<4",
+		"contao-community-alliance/composer-installer":"*",
+		"sunra/php-simple-html-dom-parser": "v1.5.0"
+	},
+	"autoload":{
+		// "classmap":["src/"]
+	},
+	"replace":{
+		// "contao-legacy/rocksolid-columns":"*"
+	},
+	"extra":{
+		"contao":{
+			"sources":{
+				"":"system/modules/cskrollr"
+			}
+		}
+	}
+}
